@@ -28,6 +28,7 @@ IF ("habisDibagi4" equals to 0
    DISPLAY "kabisat"
 ELSE 
    DISPLAY "bukan kabisat"
+ENDIF
 
 3. Laundry Day
 
@@ -35,6 +36,7 @@ STORE "jumlahPakaian" with 0
 
 WHILE "jumlahPakaian" < 20
   ADD "jumlahPakaian" by 1
+ENDWHILE
 
 DISPLAY "Mesin cuci is ON"
 
@@ -49,4 +51,5 @@ WHILE "jumlahSiswa" < 40
     DO "jalankan hukuman"
   ELSE
     DO "berikan pujian"
-  
+  ENDIF
+ENDWHILE  
