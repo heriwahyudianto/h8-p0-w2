@@ -1,0 +1,52 @@
+1. Newton second law
+
+STORE "m" to 600
+STORE "a" to 2
+
+CALCULATE "m" * "a"
+STORE "resultanGaya" to the result of calculation
+DISPLAY "resultanGaya"
+
+2. Tahun Kabisat
+
+STORE "tahun" to 2000
+
+CALCULATE "tahun" mod 4
+STORE "habisDibagi4" to the result of calculation
+
+CALCULATE "tahun" mod 100
+STORE "habisDibagi100" to the result of calculation
+
+CALCULATE "tahun" mod 400
+STORE "habisDibagi400" to the result of calculation
+
+IF ("habisDibagi4" equals to 0 
+     AND "habisDibagi100" not equals to 0)
+   OR ("habisDibagi4" equals to 0
+     AND "habisDibagi100" equals to 0
+     AND "habisDibagi400" equals to 0)
+   DISPLAY "kabisat"
+ELSE 
+   DISPLAY "bukan kabisat"
+
+3. Laundry Day
+
+STORE "jumlahPakaian" with 0
+
+WHILE "jumlahPakaian" < 20
+  ADD "jumlahPakaian" by 1
+
+DISPLAY "Mesin cuci is ON"
+
+
+4. Periksa Kuku
+
+STORE "jumlahSiswa" with 0
+
+WHILE "jumlahSiswa" < 40
+  ADD "jumlahSiswa" by 1  
+  IF "kukuPanjang" equals to 1 
+    DO "jalankan hukuman"
+  ELSE
+    DO "berikan pujian"
+  
